@@ -1,0 +1,31 @@
+
+form p {
+    color: white;
+    margin-left:10px;
+    margin-bottom: 0px;
+    padding-top:10px;
+    min-width: 66px;
+}
+
+form {
+    margin-left: 20px;
+    display:flex;
+    flex-direction:column;
+}
+
+form div {
+    display:flex;
+    flex-direction:row;
+    margin: 20px;
+}
+
+input {
+    margin: 10px;
+}
+
+div div p {
+    padding-top:3px;
+}
+
+
+

@@ -1,11 +1,11 @@
-img {
+.imag > img {
     height : 400px;
     width: auto;
     margin: 10px;
     transition: all 1s;
 }
 
-img:hover {
+.imag>img:hover {
     transform : scale(1.05);
     box-shadow: 4px 4px 4px #888888
 }
@@ -14,23 +14,26 @@ img:hover {
     display:flex;
     flex-wrap : wrap;
     justify-content: center;
-    
+
 }
+    
 
 .intro {
     color: white;
     text-align:center;
+    margin-top: 50px;
+
 }
+
 #hname > h1 {
     font-size: 8em;
     margin : 10px;
-    transition: 1.5s;
+    
 }
 
 #hname > h1:hover {
-    transform: rotate(20deg);
+    transition: all 1.5s;
     color:orange;
-    box-shadow: 4px 4px 4px rgb(227, 198, 30)
 }
 
 #hname {
@@ -39,12 +42,6 @@ img:hover {
     justify-content: space-around;
     border-bottom: 2px solid rgb(52, 194, 230);
     margin : 20px;
-}
-
-body {
-    font-family: 'Noto Serif JP', serif;
-    background-image: url(background.jpg);
-    background-size: 50%
 }
 
 footer {
