@@ -17,18 +17,18 @@
 
 }
 
-#hname > h1 {
+.hname > h1 {
     font-size: 8em;
     margin : 10px;
     
 }
 
-#hname > h1:hover {
+.hname > h1:hover {
     transition: all 1.5s;
     color:orange;
 }
 
-#hname {
+.hname {
     color:rgb(52, 194, 230);
     display:flex;
     justify-content: space-around;
